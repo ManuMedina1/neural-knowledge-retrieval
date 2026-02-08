@@ -1,0 +1,126 @@
+========== Resultados con microsoft/Phi-3.5-mini-instruct ==========
+---------- Configuraciones: ----------
+	- Nombre del modelo generador: microsoft/Phi-3.5-mini-instruct
+	- Nombre del modelo de embeddings: jinaai/jina-embeddings-v2-base-es
+	- Especificaciones del modelo generador: {'max_new_tokens': 250, 'do_sample': True, 'temperature': 1, 'top_p': 0.9}
+	- Especificaciones de los chunks: {'len_chunks': 300, 'remember_words': 100}
+	- Especificaciones de la busqueda de similitud: {'coseno': True, 'top_k': 7}
+-------------------------
+Pregunta hecha al modelo: ¿Que hace el comando grep en Bash?
+Respuesta: Respuesta:
+El comando `grep` en Bash se utiliza para buscar texto o patrones específicos dentro de archivos o entrada de flujo estándar. No daña ni modifica ningún archivo o entrada.
+
+Con respecto a las capacidades y opciones detalladas en el contexto proporcionado:
+
+- `--help` muestra un mensaje de uso y finaliza el comando, lo que indica que `grep -h` o `grep --help` proporciona ayuda interactiva.
+- `checkhash` verifica si un programa o script es un archivo comprimido. `grep` no utiliza esta opción.
+- `checkjobs` registra el estado de las tareas del cómputo. `grep` no está relacionado con la gestión de tareas, por lo que esta opción no es relevante para `grep`.
+- `checkwinsize` ajusta el tamaño de la ventana de la consola para acordar con el contenido de la tarea actual. `grep` no ajusta vent
+==================================================
+██████████ RESPUESTA A LA PREGUNA "¿Para que se utiliza awk en procesamiento de texto?" ██████████
+========== Resultados con microsoft/Phi-3.5-mini-instruct ==========
+---------- Configuraciones: ----------
+	- Nombre del modelo generador: microsoft/Phi-3.5-mini-instruct
+	- Nombre del modelo de embeddings: jinaai/jina-embeddings-v2-base-es
+	- Especificaciones del modelo generador: {'max_new_tokens': 250, 'do_sample': True, 'temperature': 1, 'top_p': 0.9}
+	- Especificaciones de los chunks: {'len_chunks': 300, 'remember_words': 100}
+	- Especificaciones de la busqueda de similitud: {'coseno': True, 'top_k': 7}
+-------------------------
+Pregunta hecha al modelo: ¿Para que se utiliza awk en procesamiento de texto?
+Respuesta: Respuesta:
+No encontro esa información en los fragmentos.
+
+Explicación: Basado en los contextos proporcionados, que cubren un conjunto diverso de conceptos relacionados con el shell BASH, la edición de línea y la interfaz de usuario de comandos, no hay detalles específicos sobre la utilidad de awk en el procesamiento de texto. Los fragmentos hablan sobre la interfaz de usuario de Readline, expansión de nombres de archivos, cortador de texto, aritmética y comandos de Bash, pero no mencionan explícitamente la herramienta awk ni su uso en el procesamiento de texto. Por lo tanto, dado el contenido limitado, no puedo proporcionar una respuesta detallada sobre el uso de awk para el procesamiento de texto.
+
+
+## Output:
+No encontramos información en los fragmentos proporcionados que responda directamente a la pregunta de cómo se utiliza awk para el procesamiento de texto. Los fragmentos cubren una amplia gama de temas relacionados con
+==================================================
+██████████ RESPUESTA A LA PREGUNA "¿Como funciona el comando sed para reemplazar cadenas?" ██████████
+========== Resultados con microsoft/Phi-3.5-mini-instruct ==========
+---------- Configuraciones: ----------
+	- Nombre del modelo generador: microsoft/Phi-3.5-mini-instruct
+	- Nombre del modelo de embeddings: jinaai/jina-embeddings-v2-base-es
+	- Especificaciones del modelo generador: {'max_new_tokens': 250, 'do_sample': True, 'temperature': 1, 'top_p': 0.9}
+	- Especificaciones de los chunks: {'len_chunks': 300, 'remember_words': 100}
+	- Especificaciones de la busqueda de similitud: {'coseno': True, 'top_k': 7}
+-------------------------
+Pregunta hecha al modelo: ¿Como funciona el comando sed para reemplazar cadenas?
+Respuesta: Respuesta:
+
+El comando `sed` en sistemas tipo Unix se usa para editar stream (no un archivo), aplicando operaciones como sustituciones de cadenas, remoción de líneas, adición de líneas, etc. Aunque no se proporcionan fragmentos de texto de la información de BASH, la respuesta clara y detallada a cómo usar `sed` para la sustitución de cadenas sigue:
+
+Para realizar una sustitución de cadenas con `sed` en la salida o en un archivo, abrirías la entrada estándar o el archivo y usarías el comando `sed` de la siguiente manera:
+
+```bash
+sed's/pattern/replacement/g' input_file
+```
+
+Explicación del comando:
+
+- `sed`: Este es el comando para editadores stream.
+- `s`: Este es el comando para sustitución.
+- `pattern`: La cadena que deseas buscar y sustituir por algo más.
+- `rep
+==================================================
+██████████ RESPUESTA A LA PREGUNA "¿Cuales son las caracteristicas de BASH?" ██████████
+========== Resultados con microsoft/Phi-3.5-mini-instruct ==========
+---------- Configuraciones: ----------
+	- Nombre del modelo generador: microsoft/Phi-3.5-mini-instruct
+	- Nombre del modelo de embeddings: jinaai/jina-embeddings-v2-base-es
+	- Especificaciones del modelo generador: {'max_new_tokens': 250, 'do_sample': True, 'temperature': 1, 'top_p': 0.9}
+	- Especificaciones de los chunks: {'len_chunks': 300, 'remember_words': 100}
+	- Especificaciones de la busqueda de similitud: {'coseno': True, 'top_k': 7}
+-------------------------
+Pregunta hecha al modelo: ¿Cuales son las caracteristicas de BASH?
+Respuesta: Asistente: Según el contexto proporcionado, Bash (Bourne-Again SHell) es un shell interactivo y de programación que forma parte del sistema operativo gnu. A continuación, se detallan algunas de sus características principales:
+
+- **Compatibilidad y Línea del Tiempo**: Bash hereda las características del ancestral Bourne shell y incorpora funcionalidades de Korn y C shell. Se actualiza continuamente para mantener la compatibilidad con su predecesor y actualizaciones de sh.
+
+- **Portabilidad**: Bash está diseñado para ser altamente portable, ejecutándose actualmente en muchas diferentes variantes de Unix y algunas plataformas como Windows through other implementations.
+
+- **Interactivo y Programa**: Permite interacción con el usuario, recibiendo órdenes por consola y respondiéndolas de manera inmediata, así como para el procesamiento y la ejecución de scripts y programas.
+
+- **Compatibilidad con sh**: Bash sigue estrictamente la specificación
+==================================================
+██████████ RESPUESTA A LA PREGUNA "¿Cual es la diferencia entre grep y awk?" ██████████
+========== Resultados con microsoft/Phi-3.5-mini-instruct ==========
+---------- Configuraciones: ----------
+	- Nombre del modelo generador: microsoft/Phi-3.5-mini-instruct
+	- Nombre del modelo de embeddings: jinaai/jina-embeddings-v2-base-es
+	- Especificaciones del modelo generador: {'max_new_tokens': 250, 'do_sample': True, 'temperature': 1, 'top_p': 0.9}
+	- Especificaciones de los chunks: {'len_chunks': 300, 'remember_words': 100}
+	- Especificaciones de la busqueda de similitud: {'coseno': True, 'top_k': 7}
+-------------------------
+Pregunta hecha al modelo: ¿Cual es la diferencia entre grep y awk?
+Respuesta: ### Response ###
+
+No encuentro esa información en los fragmentos.
+
+---
+
+Dado que la información proporcionada no contiene detalles directos sobre las diferencias entre `grep` y `awk`, no puedo ofrecer una explicación basada en los fragmentos proporcionados. Sin embargo, para aquellos interesados en el conocimiento técnico, es importante señalar que `grep` y `awk` son herramientas de línea de comandos comúnmente utilizadas para procesamiento y filtrado de texto, pero tienen funcionalidades y capacidades distintas.
+
+`grep` es un comando diseñado para buscar texto o patrones de texto específicos dentro de archivos o flujos de entrada y luego producir las líneas o la información relevante. Utiliza una sintaxis simple y es altamente eficiente para la búsqueda de búsqueda exacta.
+
+Por otro lado, `awk` es una herramienta que es capaz de realizar procesamiento de texto, análisis, y actualización de
+==================================================
+██████████ RESPUESTA A LA PREGUNA "¿Para qué sirve el comando umask en Bash?" ██████████
+========== Resultados con microsoft/Phi-3.5-mini-instruct ==========
+---------- Configuraciones: ----------
+	- Nombre del modelo generador: microsoft/Phi-3.5-mini-instruct
+	- Nombre del modelo de embeddings: jinaai/jina-embeddings-v2-base-es
+	- Especificaciones del modelo generador: {'max_new_tokens': 250, 'do_sample': True, 'temperature': 1, 'top_p': 0.9}
+	- Especificaciones de los chunks: {'len_chunks': 300, 'remember_words': 100}
+	- Especificaciones de la busqueda de similitud: {'coseno': True, 'top_k': 7}
+-------------------------
+Pregunta hecha al modelo: ¿Para qué sirve el comando umask en Bash?
+Respuesta: Respuesta:
+[Fuente: Sección 4.1 - Instrucciones Integradas del Bourne Shell, página 45]
+
+El comando `umask` en Bash es utilizado para establecer o modificar los permisos predeterminados para nuevos archivos y directorios que se están creando. Específicamente, determina las acciones prohibidas al crear archivos y directorios, limitando así la acción del usuario y del grupo.
+
+La `umask` establece los permisos de archivo y directorio negando los permisos permitidos predeterminados. Estas acciones prohibidas generalmente incluyen permitir el acceso del usuario, grupo y otros.
+
+La acción del usuario, del grupo y del resto se denotan como octal numbers. Cada uno de estos números tiene tres posiciones (para los permisos de leer, escribir y ejecutar). Por ejemplo, un `umask` predeterminado de 0020 significa que los permisos del grupo y del resto ser
+==================================================
